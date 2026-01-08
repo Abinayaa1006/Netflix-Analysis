@@ -66,15 +66,19 @@ This project focuses on analyzing the Netflix Movies and TV Shows dataset to ext
 
 Netflix-Data-Analysis/
 │
-├── NETFLIX_PROJECT2.ipynb        # Main Jupyter notebook with full analysis
-├── dataset/
-│   └── netflix_titles.csv# Netflix dataset used for analysis
+├── DataSet/
+│   ├── netflix_titles.csv            # Original Netflix dataset
+│   └── netflix_titles_cleaned.csv    # Cleaned dataset after preprocessing
 │
 ├── images/
-│   ├── movies_vs_tvshows.png           # Distribution plot
-│   ├── Netflix Content Added Per Year  # Genre-wise analysis
-│   └── Content Added Per Year(By Type) # Year-wise release trends
+│   ├── Movies Vs TV Shows.png                     # Movies vs TV shows distribution
+│   ├── Content Added Per Year(By Type).png        # Content added per year by type
+│   ├── Netflix Content Added Per Year.png         # Year-wise content trend
+│   ├── Top 10 Most Common Content Types.png       # Top content types
+│   └── Top10 Countries by Titles.png              # Top countries by number of titles
 │
-├── README.md                    # Project documentation
+├── NETFLIX_PROJECT2.ipynb           # Main Jupyter notebook with analysis
+└── README.md                        # Project documentation
+
 
 
