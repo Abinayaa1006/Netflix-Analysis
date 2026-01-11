@@ -63,7 +63,7 @@ This project focuses on analyzing the Netflix Movies and TV Shows dataset to ext
 ---
 
 ## 📁 Project Structure
-
+```text
 Netflix-Data-Analysis/
 │
 ├── DataSet/
